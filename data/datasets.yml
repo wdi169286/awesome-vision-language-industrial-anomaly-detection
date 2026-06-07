@@ -1,0 +1,160 @@
+# Machine-readable dataset catalogue.
+
+- name: MVTec AD
+  year: 2019
+  classes: 15
+  total_samples: 5354
+  modality: [RGB]
+  annotation: [pixel-mask]
+  use_case: canonical RGB anomaly classification and segmentation
+  url: "https://www.mvtec.com/company/research/datasets/mvtec-ad"
+
+- name: VisA
+  year: 2022
+  classes: 12
+  total_samples: 10821
+  modality: [RGB]
+  annotation: [pixel-mask]
+  use_case: multi-category RGB anomaly detection and segmentation
+  url: ""
+
+- name: MVTec LOCO AD
+  year: 2022
+  classes: 5
+  total_samples: 3340
+  modality: [RGB]
+  annotation: [pixel-mask, logical-anomaly]
+  use_case: logical and structural anomaly localization
+  url: "https://www.mvtec.com/company/research/datasets/mvtec-loco"
+
+- name: MVTec 3D-AD
+  year: 2021
+  classes: 10
+  total_samples: 3852
+  modality: [RGB, 3D]
+  annotation: [pixel-mask, point-level-localization]
+  use_case: geometry-aware anomaly detection and localization
+  url: "https://www.mvtec.com/company/research/datasets/mvtec-3d-ad"
+
+- name: Real-IAD
+  year: 2024
+  classes: 30
+  total_samples: 151050
+  modality: [RGB, multi-view]
+  annotation: [pixel-mask]
+  use_case: large-scale real-world multi-view industrial anomaly detection
+  url: "https://realiad4ad.github.io/Real-IAD/"
+
+- name: Real-IAD MVN
+  year: 2026
+  classes:
+  total_samples:
+  modality: [multi-view, normal-vector]
+  annotation: [localization]
+  use_case: high-fidelity anomaly detection with surface-normal evidence
+  url: ""
+
+- name: MMAD
+  year: 2025
+  classes:
+  total_samples:
+  modality: [image, text, multimodal-reasoning]
+  annotation: [answer, reasoning]
+  use_case: multimodal large language model evaluation for industrial anomaly detection
+  url: ""
+
+- name: BTAD
+  year: 2021
+  classes: 3
+  total_samples: 2830
+  modality: [RGB]
+  annotation: [pixel-mask]
+  use_case: real-world localization robustness
+  url: ""
+
+- name: MPDD
+  year: 2021
+  classes: 6
+  total_samples: 1346
+  modality: [RGB]
+  annotation: [pixel-mask]
+  use_case: metal-part defect detection under complex conditions
+  url: ""
+
+- name: Eyecandies
+  year: 2022
+  classes: 10
+  total_samples: 15500
+  modality: [RGB-D, synthetic]
+  annotation: [pixel-mask]
+  use_case: multimodal anomaly localization with geometry and appearance
+  url: "https://eyecan-ai.github.io/eyecandies/"
+
+- name: GDXray
+  year: 2016
+  classes: 1
+  total_samples: 19407
+  modality: [X-ray]
+  annotation: [bounding-box]
+  use_case: nondestructive testing and industrial X-ray inspection
+  url: "https://domingomery.ing.puc.cl/material/gdxray/"
+
+- name: MVTec-Caption
+  year: 2024
+  classes:
+  total_samples:
+  modality: [RGB, text]
+  annotation: [caption]
+  use_case: anomaly-related visual-text description and synthesis
+  status: watchlist
+  url: ""
+
+- name: MANTA
+  year: 2024
+  classes:
+  total_samples:
+  modality: [RGB, multi-view, text]
+  annotation: [visual-text]
+  use_case: multi-view visual-text anomaly detection for tiny objects
+  status: watchlist
+  url: ""
+
+- name: MMR-AD
+  year: 2026
+  classes:
+  total_samples:
+  modality: [image, text, multimodal-reasoning]
+  annotation: [reasoning]
+  use_case: large-scale multimodal anomaly benchmark for MLLMs
+  status: watchlist
+  url: ""
+
+- name: M3-AD
+  year: 2026
+  classes:
+  total_samples:
+  modality: [multimodal, multi-view, multi-dimensional]
+  annotation: [localization, reasoning]
+  use_case: reflection-aware multimodal and multidimensional industrial anomaly benchmark
+  status: watchlist
+  url: ""
+
+- name: Real-IAD D3
+  year: 2025
+  classes:
+  total_samples:
+  modality: [RGB, pseudo-3D, 3D]
+  annotation: [localization]
+  use_case: real-world 2D, pseudo-3D, and 3D anomaly detection
+  status: watchlist
+  url: ""
+
+- name: Multi-Sensor Object Anomaly Detection
+  year: 2025
+  classes:
+  total_samples:
+  modality: [appearance, geometry, internal-property]
+  annotation: [localization]
+  use_case: multi-sensor anomaly detection with complementary object evidence
+  status: watchlist
+  url: ""

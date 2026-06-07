@@ -1,0 +1,137 @@
+# Machine-readable seed catalogue.
+# Links can be filled incrementally as paper and code URLs are verified.
+
+- key: jeong2023winclip
+  title: "WinCLIP: Zero-/Few-Shot Anomaly Classification and Segmentation"
+  year: 2023
+  role: cross-modal-local-evidence
+  setting: zero-shot/few-shot
+  datasets: [MVTec AD, VisA]
+  paper_url: ""
+  code_url: ""
+
+- key: zhou2023anomalyclip
+  title: "AnomalyCLIP: Object-Agnostic Prompt Learning for Zero-Shot Anomaly Detection"
+  year: 2023
+  role: semantic-prior
+  setting: zero-shot
+  datasets: [MVTec AD, VisA]
+  paper_url: ""
+  code_url: ""
+
+- key: chen2024clip
+  title: "CLIP-AD: A Language-Guided Staged Dual-Path Model for Zero-Shot Anomaly Detection"
+  year: 2024
+  role: cross-modal-local-evidence
+  setting: zero-shot
+  datasets: [MVTec AD, VisA]
+  paper_url: ""
+  code_url: ""
+
+- key: li2024promptad
+  title: "PromptAD: Learning Prompts With Only Normal Samples for Few-Shot Anomaly Detection"
+  year: 2024
+  role: scarce-sample-calibration
+  setting: few-normal-shot
+  datasets: [MVTec AD, VisA]
+  paper_url: ""
+  code_url: ""
+
+- key: cao2024adaclip
+  title: "AdaCLIP: Adapting CLIP With Hybrid Learnable Prompts for Zero-Shot Anomaly Detection"
+  year: 2024
+  role: semantic-prior
+  setting: zero-shot
+  datasets: [MVTec AD, VisA]
+  paper_url: ""
+  code_url: ""
+
+- key: li2024musc
+  title: "MuSc: Zero-Shot Industrial Anomaly Classification and Segmentation With Mutual Scoring of the Unlabeled Images"
+  year: 2024
+  role: scarce-sample-calibration
+  setting: context-enhanced zero-shot
+  datasets: [MVTec AD, VisA]
+  paper_url: ""
+  code_url: ""
+
+- key: zhou2024pointad
+  title: "PointAD: Comprehending 3D Anomalies From Points and Pixels for Zero-Shot 3D Anomaly Detection"
+  year: 2024
+  role: auxiliary-foundation-prior
+  setting: zero-shot 3D
+  datasets: [MVTec 3D-AD]
+  paper_url: ""
+  code_url: ""
+
+- key: gu2024anomalygpt
+  title: "AnomalyGPT: Detecting Industrial Anomalies Using Large Vision-Language Models"
+  year: 2024
+  role: reasoning-level-inspection
+  setting: LVLM reasoning
+  datasets: [MVTec AD, VisA]
+  paper_url: ""
+  code_url: ""
+
+- key: qu2025bayesian
+  title: "Bayesian Prompt Flow Learning for Zero-Shot Anomaly Detection"
+  year: 2025
+  role: semantic-prior
+  setting: zero-shot with prompt sampling
+  datasets: [MVTec AD, VisA]
+  paper_url: ""
+  code_url: ""
+
+- key: gong2025fe
+  title: "FE-CLIP: Frequency Enhanced CLIP Model for Zero-Shot Anomaly Detection and Segmentation"
+  year: 2025
+  role: auxiliary-foundation-prior
+  setting: zero-shot
+  datasets: [MVTec AD, VisA]
+  paper_url: ""
+  code_url: ""
+
+- key: he2025rareclip
+  title: "RareCLIP: Rarity-Aware Online Zero-Shot Industrial Anomaly Detection"
+  year: 2025
+  role: scarce-sample-calibration
+  setting: online zero-shot
+  datasets: [MVTec AD, VisA]
+  paper_url: ""
+  code_url: ""
+
+- key: jiang2025mmad
+  title: "MMAD: A Comprehensive Benchmark for Multimodal Large Language Models in Industrial Anomaly Detection"
+  year: 2025
+  role: benchmark-or-dataset
+  setting: MLLM reasoning benchmark
+  datasets: [MMAD]
+  paper_url: ""
+  code_url: ""
+
+- key: zhang2026s2swclip
+  title: "S2SWCLIP: Semantic-Optimized Prompts With Spatial-Wavelet Synergy for Zero-Shot Anomaly Detection"
+  year: 2026
+  role: auxiliary-foundation-prior
+  setting: zero-shot
+  datasets: [MVTec AD, VisA]
+  paper_url: ""
+  code_url: ""
+
+- key: shao2026promptmoe
+  title: "PromptMoE: Generalizable Zero-Shot Anomaly Detection via Visually-Guided Prompt Mixtures"
+  year: 2026
+  role: semantic-prior
+  setting: zero-shot
+  datasets: [MVTec AD, VisA]
+  paper_url: ""
+  code_url: ""
+
+- key: tan2026indusagent
+  title: "IndusAgent: Reinforcing Open-Vocabulary Industrial Anomaly Detection With Agentic Tools"
+  year: 2026
+  role: reasoning-level-inspection
+  setting: agentic reasoning
+  datasets: []
+  paper_url: ""
+  code_url: ""
